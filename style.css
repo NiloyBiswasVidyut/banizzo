@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1366px;
+    width: 95%;
+    margin: 0 auto;
+}
+.text-primary {
+    color: #ff4904;
+}
+header {
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+header a:hover {
+    color: #ff4904;
+}
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 28px;
+    font-size: 20px;
+}
+.hero-section {
+    background: linear-gradient(to top, rgba(0, 2, 8, 0.7), rgba(6, 1, 31, 0.7)), url("https://codexup.com/html/banizzo/assets/imgs/hero/hero-bg.jpeg") center center/cover no-repeat ;
+    align-items: center;
+    display: flex;
+    flex-direction: column ;
+}
+.hero-section div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 150px auto ; 
+    position: relative; 
+}
+.hero-section span {
+    color: #ff4904;
+}
+.hero-section h1 {
+    font-size: 84px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    margin: 21px 0;
+}
+.hero-section p {
+    font-size: 18px;
+    max-width: 570px;
+    color: #d8d8d8;
+    padding-bottom: 50px;
+}
+.btn-primary {
+    padding: 16px 30px;
+    text-transform: uppercase;
+    background-color: #ff4904;
+    border: 0;
+}
+.btn-primary a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: rgb(114, 15, 39);
+}
+.section2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 21px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin: 54px 0;
+    gap: 14px;
+}
+.section3 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section3 .span-main {
+    display: flex;
+    margin-bottom: 34px;
+}
+.section3 .span1 {
+    display: flex;
+    flex-direction: column;
+}
+.section3 .span2 {
+    margin-right: 50px;
+}
+.section3 i {
+    color: #ff4904;
+}
+.mini-div h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.mini-div p {
+    margin: 21px 0;
+}
+.section4 .container {
+    margin-top: 105px ;
+}
+.section4 .max-div {
+    display: flex;
+    flex-direction: column;
+}
+.section4 .max-div .two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+.section4 .one h5 {
+    font-size: 13px;
+    color: black;
+    margin: 13px 0;
+}
+.section4 .one h5:hover {
+    color: #ff4904;
+}
+.section4 .I {
+    background-image: url(https://cdn.discordapp.com/attachments/1061342905580671018/1067133861554819142/Untitled-1.png);
+    background-repeat: no-repeat;
+}
+header i {
+    color: #fff;
+}
+header i:hover {
+    color: chartreuse;
+}
